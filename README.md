@@ -1,21 +1,4 @@
-## Criando uma aplicação básica
-## Criando componentes
-## Diretiva @For
-## Diretiva @if
-## Instalando Bootstrap com NPM
-## Definido propriedades para um componente
-## Two-way biding /ngModel
-## Formulário Reativo (Orientado a dados)
-## Enviando as informações do formulário (Event binding)
-## Validando campos (Classe Validators)
-## Mostrando mensagem de erro (Uso de @If)
-## Implementando rotas
-## Acessando as rotas criadas
-## Criando um servidor backend fake
-## Consumindo API
-## Criando uma service
-## Uso de HttpClient 
-## Redirecionando para uma rota
+# Criando uma aplicação Angular básica / Principais conceitos
 
 <hr>
 
