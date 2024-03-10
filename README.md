@@ -27,6 +27,8 @@ Já dentro da pasta do projeto, é possível já levantar o servidor e visualiza
 
 A página vai parecer mais ou menos como abaixo:
 
+<img src="/src/assets/readme/5.png">
+
 A estrutura de pastas
 O arquivo package.json é onde ficam as dependências do projeto.
 Os arquivos:
@@ -85,7 +87,7 @@ Onde:
 1. @Component Esta é uma anotação decoradora em Angular que é usada para marcar uma classe como um componente. Ela aceita um objeto como argumento com metadados que descrevem o componente.
 
 
-2. selector: 'app-container':É um seletor CSS usado para identificar o componente na marcação HTML. Assim, o componente pode ser usado na marcação HTML com <app-container></app-container> tal qual qualquer tag html (<div>, <span>, <p>, etc).
+2. selector: 'app-container':É um seletor CSS usado para identificar o componente na marcação HTML. Assim, o componente pode ser usado na marcação HTML com ``` <app-container></app-container> ``` tal qual qualquer tag html ```(<div>, <span>, <p>, etc)```.
 
 
 3. standalone: true determina que um componente Angular pode ser utilizado de forma isolada, ou seja, sem depender de um NgModule. Ele é autocontido e não requer a declaração em um módulo para ser utilizado.
@@ -636,7 +638,7 @@ Dessa forma, é configurado o JSON Server para consultar o arquivo db.json e exe
 Estando ainda dentro da pasta backend, após salvar todas as alterações feitas, de o comando npm start para subir o servidor.<br>
 Obs.: Caso o comando npm start resulte no erro abaixo, use o comando **npx json-server --watch db.json**. Ao rodar o comando, será feita a pergunta como no print abaixo, basta digitar y e dar enter:
 
-<img src="/src/assets/readme/7.png">
+<img src="/src/assets/readme/6.png">
 
 
 O terminal passará a carregar os recursos. A mensagem "Hi!" aparecerá e também será possível ver o nosso recurso ou endpoint na seção "Resources". Se jogar o endpoint no navegador será possível visualizar o json contido no arquivo db.json.
@@ -822,7 +824,7 @@ export const routes: Routes = [
     ];
 ```
 Onde:<br>
- para cada parâmetro, você dá um /:nomeDoParametro (Barra, dois pontos e o nome do parâmetro)
+ para cada parâmetro, você acrescenta um ```/:nomeDoParametro``` (Barra, dois pontos e o nome do parâmetro)
 
 No componente que contém o link para a rota com vários parâmetros,no arquivo .ts importe RouterLink e no aquivo .html crie o link com esses parâmetros:
 ```
